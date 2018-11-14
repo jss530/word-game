@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run open",
-    "open": "concurrently \"http-server -a localhost -p 3000\" \"open http://localhost:3000/\""
+    "open": "concurrently \"http-server -a localhost -p 3001\" \"open http://localhost:3001/\""
   },
   "repository": {
     "type": "git",
