@@ -13,7 +13,7 @@ let wins = 0;
 function get(url) {
   return new Promise(function(resolve, reject) {
     var req = new XMLHttpRequest();
-    req.open('GET', url);
+    req.open('GET', url, true);
 
     req.onload = function() {
       if (req.status == 200) {
